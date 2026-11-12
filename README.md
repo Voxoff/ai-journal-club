@@ -1,4 +1,4 @@
-# AI Journal Club
+![AI Journal Club](banner.svg)
 
 Facilitated by [Founders & Coders](https://www.foundersandcoders.com/workshops/63). Part of our fortnightly series of paper reading sessions. Check out the journal club channel on our applicant [Discord server](https://discord.gg/y6AXyzbXUX).
 

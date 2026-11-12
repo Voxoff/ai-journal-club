@@ -1,7 +1,8 @@
-# Track only each session's questions.pdf (plus this file and the README).
+# Track only each session's questions.pdf (plus this file, the README and its banner).
 /*
 !/.gitignore
 !/README.md
+!/banner.svg
 !/*/
 /*/*
 !/*/questions.pdf
