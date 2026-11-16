@@ -1,4 +1,4 @@
-# Track only each session's README.md and questions.pdf (plus this file, the main README and its banner).
+# Track only each session's README.md, questions.pdf and diagram (plus this file, the main README and its banner).
 /*
 !/.gitignore
 !/README.md
@@ -7,3 +7,4 @@
 /*/*
 !/*/questions.pdf
 !/*/README.md
+!/*/diagram*.svg
