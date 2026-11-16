@@ -6,7 +6,4 @@ Devlin et al., 2018
 *Group Whiteboarding:* [Questions.pdf](questions.pdf)\
 [Founders & Coders Workshop](https://www.foundersandcoders.com/workshops/60), 11 November 2026
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="diagram-dark.svg">
-  <img src="diagram-light.svg" alt="Bidirectional attention with a masked token" width="100%">
-</picture>
+<img src="diagram.svg" alt="Bidirectional attention with a masked token" width="100%">
