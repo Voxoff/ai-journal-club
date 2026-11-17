@@ -1,0 +1,123 @@
+<svg width="100%" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>A causal attention head reading a few-shot prompt</title>
+<desc>Five tokens, cat = chat dog =, pass through the shared weight matrices W Q, W K and W V to give a query, key and value each. The five by five score grid masks every cell above the diagonal with minus infinity. The last row, the second equals sign, attends most to dog and chat. A times v1 to v5 gives H, and the model predicts the next token, chien.</desc>
+<rect x="0" y="0" width="1200" height="675" fill="#010409"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#6e7681" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g transform="translate(600 337.5) scale(0.76) translate(-684.0 -299.0)">
+<rect x="255" y="92" width="64" height="340" rx="8" fill="rgba(139,148,158,0.06)" stroke="#8b949e" stroke-width="1.55"/>
+<text x="281.0" y="166.0" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="400" fill="#58a6ff">W</text>
+<text x="292.0" y="175.0" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="15" font-weight="400" fill="#58a6ff">Q</text>
+<text x="281.0" y="262.0" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="400" fill="#7ee787">W</text>
+<text x="292.0" y="271.0" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="15" font-weight="400" fill="#7ee787">K</text>
+<text x="281.0" y="358.0" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="400" fill="#ff7b72">W</text>
+<text x="292.0" y="367.0" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="15" font-weight="400" fill="#ff7b72">V</text>
+<rect x="75" y="96" width="128" height="52" rx="6" fill="rgba(188,140,255,0.08)" stroke="#bc8cff" stroke-width="1.55"/>
+<text x="139.0" y="122" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="500" fill="#f0f6fc">cat</text>
+<path d="M 211 122 L 247 122" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<path d="M 327 122 L 359 122" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<rect x="367" y="99" width="46" height="46" rx="5" fill="rgba(88,166,255,0.08)" stroke="#58a6ff" stroke-width="1.55"/>
+<text x="390.0" y="122" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#58a6ff">q₁</text>
+<rect x="419" y="99" width="46" height="46" rx="5" fill="rgba(63,185,80,0.08)" stroke="#3fb950" stroke-width="1.55"/>
+<text x="442.0" y="122" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#7ee787">k₁</text>
+<rect x="471" y="99" width="46" height="46" rx="5" fill="rgba(247,129,102,0.08)" stroke="#f78166" stroke-width="1.55"/>
+<text x="494.0" y="122" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#ff7b72">v₁</text>
+<rect x="75" y="166" width="128" height="52" rx="6" fill="rgba(188,140,255,0.08)" stroke="#bc8cff" stroke-width="1.55"/>
+<text x="139.0" y="192" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="500" fill="#f0f6fc">=</text>
+<path d="M 211 192 L 247 192" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<path d="M 327 192 L 359 192" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<rect x="367" y="169" width="46" height="46" rx="5" fill="rgba(88,166,255,0.08)" stroke="#58a6ff" stroke-width="1.55"/>
+<text x="390.0" y="192" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#58a6ff">q₂</text>
+<rect x="419" y="169" width="46" height="46" rx="5" fill="rgba(63,185,80,0.08)" stroke="#3fb950" stroke-width="1.55"/>
+<text x="442.0" y="192" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#7ee787">k₂</text>
+<rect x="471" y="169" width="46" height="46" rx="5" fill="rgba(247,129,102,0.08)" stroke="#f78166" stroke-width="1.55"/>
+<text x="494.0" y="192" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#ff7b72">v₂</text>
+<rect x="75" y="236" width="128" height="52" rx="6" fill="rgba(188,140,255,0.08)" stroke="#bc8cff" stroke-width="1.55"/>
+<text x="139.0" y="262" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="500" fill="#f0f6fc">chat</text>
+<path d="M 211 262 L 247 262" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<path d="M 327 262 L 359 262" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<rect x="367" y="239" width="46" height="46" rx="5" fill="rgba(88,166,255,0.08)" stroke="#58a6ff" stroke-width="1.55"/>
+<text x="390.0" y="262" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#58a6ff">q₃</text>
+<rect x="419" y="239" width="46" height="46" rx="5" fill="rgba(63,185,80,0.08)" stroke="#3fb950" stroke-width="1.55"/>
+<text x="442.0" y="262" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#7ee787">k₃</text>
+<rect x="471" y="239" width="46" height="46" rx="5" fill="rgba(247,129,102,0.08)" stroke="#f78166" stroke-width="1.55"/>
+<text x="494.0" y="262" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#ff7b72">v₃</text>
+<rect x="75" y="306" width="128" height="52" rx="6" fill="rgba(188,140,255,0.08)" stroke="#bc8cff" stroke-width="1.55"/>
+<text x="139.0" y="332" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="500" fill="#f0f6fc">dog</text>
+<path d="M 211 332 L 247 332" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<path d="M 327 332 L 359 332" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<rect x="367" y="309" width="46" height="46" rx="5" fill="rgba(88,166,255,0.08)" stroke="#58a6ff" stroke-width="1.55"/>
+<text x="390.0" y="332" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#58a6ff">q₄</text>
+<rect x="419" y="309" width="46" height="46" rx="5" fill="rgba(63,185,80,0.08)" stroke="#3fb950" stroke-width="1.55"/>
+<text x="442.0" y="332" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#7ee787">k₄</text>
+<rect x="471" y="309" width="46" height="46" rx="5" fill="rgba(247,129,102,0.08)" stroke="#f78166" stroke-width="1.55"/>
+<text x="494.0" y="332" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#ff7b72">v₄</text>
+<rect x="75" y="376" width="128" height="52" rx="6" fill="rgba(188,140,255,0.08)" stroke="#bc8cff" stroke-width="1.55"/>
+<text x="139.0" y="402" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="500" fill="#f0f6fc">=</text>
+<path d="M 211 402 L 247 402" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<path d="M 327 402 L 359 402" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<rect x="367" y="379" width="46" height="46" rx="5" fill="rgba(88,166,255,0.08)" stroke="#58a6ff" stroke-width="1.55"/>
+<text x="390.0" y="402" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#58a6ff">q₅</text>
+<rect x="419" y="379" width="46" height="46" rx="5" fill="rgba(63,185,80,0.08)" stroke="#3fb950" stroke-width="1.55"/>
+<text x="442.0" y="402" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#7ee787">k₅</text>
+<rect x="471" y="379" width="46" height="46" rx="5" fill="rgba(247,129,102,0.08)" stroke="#f78166" stroke-width="1.55"/>
+<text x="494.0" y="402" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#ff7b72">v₅</text>
+<path d="M 533 262.0 L 597 262.0" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<text x="745" y="68" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#7ee787">cat</text>
+<text x="815" y="68" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#7ee787">=</text>
+<text x="885" y="68" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#7ee787">chat</text>
+<text x="955" y="68" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#7ee787">dog</text>
+<text x="1025" y="68" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#7ee787">=</text>
+<text x="701" y="122" text-anchor="end" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#58a6ff">cat</text>
+<rect x="715" y="92" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="785" y="92" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="815.0" y="122" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<rect x="855" y="92" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="885.0" y="122" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<rect x="925" y="92" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="955.0" y="122" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<rect x="995" y="92" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="1025.0" y="122" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<text x="701" y="192" text-anchor="end" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#58a6ff">=</text>
+<rect x="715" y="162" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="785" y="162" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="855" y="162" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="885.0" y="192" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<rect x="925" y="162" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="955.0" y="192" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<rect x="995" y="162" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="1025.0" y="192" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<text x="701" y="262" text-anchor="end" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#58a6ff">chat</text>
+<rect x="715" y="232" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="785" y="232" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="855" y="232" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="925" y="232" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="955.0" y="262" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<rect x="995" y="232" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="1025.0" y="262" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<text x="701" y="332" text-anchor="end" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#58a6ff">dog</text>
+<rect x="715" y="302" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="785" y="302" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="855" y="302" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="925" y="302" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="995" y="302" width="60" height="60" rx="6" fill="rgba(139,148,158,0.05)" stroke="#6e7681" stroke-width="1.55" stroke-dasharray="7.7 6.2"/>
+<text x="1025.0" y="332" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="22" font-weight="400" fill="#8b949e">&#8722;&#8734;</text>
+<text x="701" y="402" text-anchor="end" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="23" font-weight="400" fill="#58a6ff">=</text>
+<rect x="715" y="372" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="785" y="372" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<rect x="855" y="372" width="60" height="60" rx="6" fill="rgba(121,210,224,0.22)" stroke="#79d2e0" stroke-width="2.32"/>
+<rect x="925" y="372" width="60" height="60" rx="6" fill="rgba(121,210,224,0.22)" stroke="#79d2e0" stroke-width="2.32"/>
+<rect x="995" y="372" width="60" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<path d="M 885.0 442 L 885.0 474" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<rect x="665.0" y="482" width="110" height="60" rx="6" fill="rgba(121,210,224,0.08)" stroke="#79d2e0" stroke-width="1.55"/>
+<text x="720.0" y="512" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="400" fill="#79d2e0">A</text>
+<text x="795.0" y="512" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#8b949e">&#215;</text>
+<rect x="815.0" y="482" width="140" height="60" rx="6" fill="rgba(247,129,102,0.08)" stroke="#f78166" stroke-width="1.55"/>
+<text x="885.0" y="512" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#ff7b72">v&#8321; &#8230; v&#8325;</text>
+<text x="975.0" y="512" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#8b949e">=</text>
+<rect x="995.0" y="482" width="110" height="60" rx="6" fill="rgba(188,140,255,0.08)" stroke="#bc8cff" stroke-width="1.55"/>
+<text x="1050.0" y="512" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="400" fill="#f0f6fc">H</text>
+<path d="M 1113.0 512 L 1157.0 512" fill="none" stroke="#6e7681" stroke-width="1.86" marker-end="url(#arrow)"/>
+<rect x="1165.0" y="486" width="128" height="52" rx="6" fill="rgba(63,185,80,0.08)" stroke="#3fb950" stroke-width="1.55"/>
+<text x="1229.0" y="512" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, system-ui, 'Segoe UI', sans-serif" font-size="26" font-weight="500" fill="#f0f6fc">chien</text>
+</g>
+</svg>
