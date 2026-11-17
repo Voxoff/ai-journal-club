@@ -11,7 +11,8 @@ Facilitated by [Founders & Coders](https://www.foundersandcoders.com/workshops).
 ## 25 November 2026
 
 [Founders & Coders Workshop](https://www.foundersandcoders.com/workshops/63)\
-*Paper:* To be decided
+*Paper:* [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) (GPT-2)\
+*Paper:* [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) (GPT-3)
 
 ## 11 November 2026
 
