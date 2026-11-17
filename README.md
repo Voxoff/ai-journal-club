@@ -29,7 +29,8 @@ Facilitated by [Founders & Coders](https://www.foundersandcoders.com/workshops).
 ## 28 October 2026
 
 [Founders & Coders Workshop](https://www.foundersandcoders.com/workshops/59)\
-*Paper:* [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+*Paper:* [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)\
+*Group Whiteboarding:* [Questions.pdf](2026-10-28-gpt-1/questions.pdf)
 
 ## 11 November 2026
 

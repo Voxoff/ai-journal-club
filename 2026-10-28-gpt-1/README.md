@@ -3,6 +3,7 @@
 Radford et al., 2018
 
 *Paper:* [PDF from OpenAI](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)\
+*Group Whiteboarding:* [Questions.pdf](questions.pdf)\
 [Founders & Coders Workshop](https://www.foundersandcoders.com/workshops/59), 28 October 2026
 
 <img src="diagram.svg" alt="A single causal attention head" width="100%">
