@@ -43,3 +43,7 @@ Facilitated by [Founders & Coders](https://www.foundersandcoders.com/workshops).
 [Founders & Coders Workshop](https://www.foundersandcoders.com/workshops/50)\
 *Paper:* [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)\
 *Group Whiteboarding:* [Questions.pdf](2026-09-09-seq2seq/questions.pdf)
+
+---
+
+This journal club was set up to read [the 27 papers](https://www.lesswrong.com/posts/t4ZBjAjXk2NqqAqJ7/the-27-papers) famously yet allegedly given from Ilya Sutskever to John Carmack. We're going off piste. If you want us to include a paper, post in the [Discord channel](https://discord.gg/y6AXyzbXUX).
