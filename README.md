@@ -17,7 +17,8 @@ Facilitated by [Founders & Coders](https://www.foundersandcoders.com/workshops).
 ## 30 September 2026
 
 [Founders & Coders Workshop](https://www.foundersandcoders.com/workshops/52)\
-*Paper:* [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+*Paper:* [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)\
+*Group Whiteboarding:* [Questions.pdf](2026-09-30-bahdanau/questions.pdf)
 
 ## 14 October 2026
 
