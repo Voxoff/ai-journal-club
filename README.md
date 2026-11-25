@@ -12,7 +12,7 @@ Facilitated by [Founders & Coders](https://www.foundersandcoders.com/workshops).
 
 [Founders & Coders Workshop](https://www.foundersandcoders.com/workshops/63)\
 *Paper:* [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) (GPT-2)\
-*Paper:* [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) (GPT-3)
+*Group Whiteboarding:* [Questions.pdf](2026-11-25-gpt-2-3/questions.pdf)
 
 ## 11 November 2026
 
